@@ -78,3 +78,11 @@ apt install
 
 student.war  -> 
 
+HW.
+1. Create a job to pull the source code from GITLAB's private repository
+2. EMAIL Notification, Configure email notification if jobs get failed/pass
+
+gmail - two way auth (dissable) - low security app (enable)
+
+
+
