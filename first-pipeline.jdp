@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    stages {
+        stage('Pull') {
+            steps {
+                git 'https://github.com/shubhamkalsait/studentapp-ui.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'echo \'Application is Build\''
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Test Success'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploy Success'
+            }
+        }
+    }
+}

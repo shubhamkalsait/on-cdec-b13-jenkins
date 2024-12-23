@@ -86,3 +86,51 @@ gmail - two way auth (dissable) - low security app (enable)
 
 
 
+## Pipeline
+-----------
+
+Automation of the JOBs
+
+4 Jobs - Pipeline
+PULL -> BUILD -> TEST -> DEPLOYMENT (CICD)
+Plugins (Pipeline)
+
+Pipeline -> Groovy Language (DSL)
+Scripted Pipeline .groovy | node
+Declarative Pipeline .groovy/.jdp | More easy to Use | pipeline
+
+pipeline {
+    agent any
+    stages {
+        stage('Pull') {
+            steps {
+                git 'https://github.com/shubhamkalsait/studentapp-ui.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'echo \'Application is Build\''
+                integrate, validate
+                compile, package
+            }
+        }
+        stage('Test') {
+            steps { 
+                sonarqube test
+                echo 'Test Success'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                cp cloth.war webapps/
+                echo 'Deploy Success'
+            }
+        }
+    }
+}
+
+HW.
+- Run pipeline on slave node
+
+
+
