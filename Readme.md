@@ -133,4 +133,40 @@ HW.
 - Run pipeline on slave node
 
 
+Build Stage:
+
+code integrate
+code validate
+code compile
+code package
+
+Build tool - Apache Maven(pom.xml), gradle(gradlew)
+
+Developers, Project 
+
+Repositories, Maven Project
+
+
+### Maven
+
+
+1. Basics of Maven
+2. Installation of maven
+3. How to create Maven Project
+4. How to read Pom.xml
+
+
+Maven Lifecylce - Maven Phases - Maven Goals
+
+1. Default = 8 Phases - 
+2. Clean 
+3. Site
+
+studentapp, mvn package 
+
+studentapp - Development - java 1.0.8 (lib)
+
+java17  (lib)
+
+BUILD - Compile
 
