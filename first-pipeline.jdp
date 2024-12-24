@@ -3,13 +3,12 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git url: 'https://github.com/shubhamkalsait/studentapp-ui.git'
+                git 'https://github.com/shubhamkalsait/studentapp-ui.git'
             }
         }
         stage('Build') {
             steps {
-                sh '''cd spring-backend
-                    /opt/maven/bin/mvn clean package'''
+                sh '/opt/maven/bin/mvn clean package'
             }
         }
         stage('Test') {
