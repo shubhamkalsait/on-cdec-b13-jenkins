@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git 'https://github.com/cloud-blitz/angular-java.git'
+                git branch: 'develop', url: 'https://github.com/cloud-blitz/angular-java.git'
             }
         }
         stage('Build') {
