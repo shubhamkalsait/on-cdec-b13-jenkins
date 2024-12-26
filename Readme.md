@@ -170,3 +170,15 @@ java17  (lib)
 
 BUILD - Compile
 
+
+### Testing
+
+Code test
+Use cases test
+API Test
+Quality Test - Pass 
+UAT 
+
+Sonarqube - Sonar - Java - 9000 - Server Setup - webapp
+Sonarcloud
+
