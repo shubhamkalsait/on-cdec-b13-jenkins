@@ -176,9 +176,10 @@ BUILD - Compile
 Code test
 Use cases test
 API Test
-Quality Test - Pass 
+Quality Test - Pass - 
 UAT 
 
 Sonarqube - Sonar - Java - 9000 - Server Setup - webapp
 Sonarcloud
 
+Vulnerbailities, bugs, Understanding, duplicate 
