@@ -183,3 +183,13 @@ Sonarqube - Sonar - Java - 9000 - Server Setup - webapp
 Sonarcloud
 
 Vulnerbailities, bugs, Understanding, duplicate 
+
+
+
+### Deployment
+
+HW.
+- Create a wordpress server
+- Deploy application on Wordpress (CLI + Console)
+
+

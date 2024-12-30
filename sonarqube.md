@@ -92,4 +92,3 @@ less logs/sonar.log
 - chown -R sonar:sonar /opt/sonarqube
 - su sonar
 - bin/linux/sonar.sh start
-
