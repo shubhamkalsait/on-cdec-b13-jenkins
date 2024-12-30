@@ -191,5 +191,5 @@ Vulnerbailities, bugs, Understanding, duplicate
 HW.
 - Create a wordpress server
 - Deploy application on Wordpress (CLI + Console)
-
+- Add delivery stage in pipeline
 
