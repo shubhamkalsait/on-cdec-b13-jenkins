@@ -193,3 +193,11 @@ HW.
 - Deploy application on Wordpress (CLI + Console)
 - Add delivery stage in pipeline
 
+### INfra pipeline
+
+terraform code
+
+gp  - PULL
+tfinit - 
+tfp - TEST
+tfa - DEPLOY
