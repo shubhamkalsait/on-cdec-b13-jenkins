@@ -201,3 +201,31 @@ gp  - PULL
 tfinit - 
 tfp - TEST
 tfa - DEPLOY
+
+
+### Java, PHP, Node, .NET Deploy (Windows Server), Apache 2
+
+
+### Summary Jenkins
+- Jenkin server installation
+- Plugins management
+- Access management
+- Credentials management
+- Write CICD pipeline and Infra-Pipeline
+- Webhook integratation and automate pipeline trigger
+- Integrate Maven and Sonarqube
+- Create end to end Pipeline
+
+### Some additional topics
+- 10 servers / AS 
+- Docker 
+- Kubernetes
+- Digital Ocean / GCP / Azure 
+
+### Microservice app (studentapp) - Hybrid Infra 
+
+backend app - studentapp
+docker image 
+manifest files
+
+PULL - BUILD - TEST - docker image, push, kubectl apply (dockerfile, manifestfiles)
