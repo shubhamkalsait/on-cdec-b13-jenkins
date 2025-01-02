@@ -36,7 +36,7 @@ pipeline {
                     docker build . -t shubhamkalsait1/studentapp:latest
                     docker push shubhamkalsait1/studentapp:latest
                     docker rmi shubhamkalsait1/studentapp:latest
-                    kubectl apply -f .
+                    kubectl apply -f ./yaml/
                 '''
             }
         }
